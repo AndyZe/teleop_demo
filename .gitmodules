@@ -4,3 +4,9 @@
 [submodule "ur_modern_driver"]
 	path = ur_modern_driver
 	url = https://github.com/ros-industrial/ur_modern_driver.git
+[submodule "temoto_intuitive_teleoperator"]
+	path = temoto_intuitive_teleoperator
+	url = git@github.com:UTNuclearRoboticsPublic/temoto_intuitive_teleoperator.git
+[submodule "jog_arm"]
+	path = jog_arm
+	url = git@github.com:UTNuclearRoboticsPublic/jog_arm.git
