@@ -10,3 +10,6 @@
 [submodule "jog_arm"]
 	path = jog_arm
 	url = git@github.com:UTNuclearRoboticsPublic/jog_arm.git
+[submodule "arm_warnings"]
+	path = arm_warnings
+	url = git@github.com:UTNuclearRobotics/arm_warnings.git
