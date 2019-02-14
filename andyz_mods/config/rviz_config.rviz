@@ -155,7 +155,7 @@ Visualization Manager:
         Interactive Marker Size: 0.150000006
         Joint Violation Color: 255; 0; 255
         Planning Group: manipulator
-        Query Goal State: true
+        Query Goal State: false
         Query Start State: false
         Show Workspace: false
         Start State Alpha: 1
@@ -234,6 +234,14 @@ Visualization Manager:
         Show Robot Visual: true
       Value: true
       Velocity_Scaling_Factor: 1
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /visualization_marker
+      Name: Marker
+      Namespaces:
+        hand_pose_marker: true
+      Queue Size: 100
+      Value: true
     - Class: rviz/TF
       Enabled: true
       Frame Timeout: 15
@@ -244,7 +252,7 @@ Visualization Manager:
         base_link:
           Value: false
         ee_link:
-          Value: false
+          Value: true
         forearm_link:
           Value: false
         shoulder_link:
@@ -287,14 +295,6 @@ Visualization Manager:
             {}
       Update Interval: 0
       Value: true
-    - Class: rviz/Marker
-      Enabled: true
-      Marker Topic: /visualization_marker
-      Name: Marker
-      Namespaces:
-        hand_pose_marker: true
-      Queue Size: 100
-      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -335,10 +335,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.565397859
+      Pitch: 0.830397666
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.37358427
+      Yaw: 0.375400633
     Saved: ~
 Window Geometry:
   Displays:
