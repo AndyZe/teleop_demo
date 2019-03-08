@@ -13,3 +13,6 @@
 [submodule "arm_warnings"]
 	path = arm_warnings
 	url = git@github.com:UTNuclearRobotics/arm_warnings.git
+[submodule "robotiq"]
+	path = robotiq
+	url = https://github.com/ros-industrial/robotiq.git
